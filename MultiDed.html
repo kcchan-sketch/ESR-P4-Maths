@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>乘減分配律圖解學習網</title>
+  <title>聖公會柴灣聖米迦勒小學  乘減圖解學習</title>
   <style>
     :root {
       --primary: #C0392B;
@@ -76,7 +76,8 @@
   <canvas id="canvas-fx"></canvas>
 
   <header>
-    <h1>➖ 乘減分配律圖解學習網 🧩</h1>
+   <h1>聖公會柴灣聖米迦勒小學<h1>
+   <br> <h1>➖ 乘減圖解學習 🧩</h1>
     <div class="nav-tabs">
       <button class="tab-btn active" onclick="switchMainTab('explore')">💡 自由動手做</button>
       <button class="tab-btn" onclick="switchMainTab('quiz')">🎮 小試身手</button>
@@ -88,15 +89,15 @@
     <div id="explore-mode" style="width: 100%;">
       <div class="controls-panel">
         <div class="select-group select-a">
-          <label>直的高 (a):</label>
+          <label>直行格數 (a):</label>
           <select id="select-a" onchange="updateExplore()"></select>
         </div>
         <div class="select-group select-b">
-          <label>大橫長 (b):</label>
+          <label>原有橫行格數 (b):</label>
           <select id="select-b" onchange="updateExplore()"></select>
         </div>
         <div class="select-group select-c">
-          <label>拿掉橫長 (c):</label>
+          <label>減掉橫行格數 (c):</label>
           <select id="select-c" onchange="updateExplore()"></select>
         </div>
         <button class="action-btn" onclick="playAutoAnimation()">🎬 看看它是怎麼減掉的</button>
